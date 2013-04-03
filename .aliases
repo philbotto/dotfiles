@@ -1,0 +1,10 @@
+# Easier navigation
+alias ..="cd .."
+alias cd..="cd .."
+
+# Shortcuts
+alias g="git"
+alias v="vim"
+
+# File size
+alias fs="stat -f \"%z bytes\""
