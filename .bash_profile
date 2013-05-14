@@ -62,7 +62,10 @@ alias l='ls -CF'
 alias subl='~/.sublime-text-2/sublime_text'
 
 # Load RVM
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 # Loads NVM
 [[ -s "$HOME/.nvm/nvm.sh" ]] && source "$HOME/.nvm/nvm.sh"
+
+# Loads local PhantomJS
+[[ -s "$HOME/.phantomjs/bin" ]] && export PATH=$HOME/.phantomjs/bin/:$PATH
