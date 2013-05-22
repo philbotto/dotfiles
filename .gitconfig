@@ -12,6 +12,7 @@
 [color]
 	ui = always
 [core]
+	mergeoptions = --no-edit
 	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes
 [color "branch"]
