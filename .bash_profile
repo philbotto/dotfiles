@@ -53,6 +53,9 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+export GIT_MERGE_AUTOEDIT=no
+export EDITOR=/usr/bin/vim
+
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
