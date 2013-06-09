@@ -8,3 +8,8 @@ alias v="vim"
 
 # File size
 alias fs="stat -f \"%z bytes\""
+
+# List
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'

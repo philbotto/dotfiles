@@ -56,11 +56,6 @@ fi
 export GIT_MERGE_AUTOEDIT=no
 export EDITOR=/usr/bin/vim
 
-# some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-
 # Sublime command
 alias subl='~/.sublime-text-2/sublime_text'
 
