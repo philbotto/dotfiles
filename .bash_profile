@@ -57,7 +57,7 @@ export GIT_MERGE_AUTOEDIT=no
 export EDITOR=/usr/bin/vim
 
 # Sublime command
-alias subl='~/.sublime-text-2/sublime_text'
+[[ -s "$HOME/.sublime-text-2/sublime_text" ]] && alias subl='~/.sublime-text-2/sublime_text'
 
 # Load RVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
