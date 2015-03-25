@@ -5,6 +5,7 @@ alias cd..="cd .."
 # Shortcuts
 alias g="git"
 alias v="vim"
+alias sbl='open -a "Sublime Text"'
 
 # File size
 alias fs="stat -f \"%z bytes\""
