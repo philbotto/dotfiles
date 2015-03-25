@@ -1,7 +1,8 @@
 # ~/.bash_prompt and ~/.aliases
-for file in ~/.{bash_prompt,aliases}; do
+for file in ~/.{bash_prompt,aliases,git-completion.bash}; do
 	[ -r "$file" ] && source "$file"
 done
+
 unset file
 
 # Load global autocompletes
